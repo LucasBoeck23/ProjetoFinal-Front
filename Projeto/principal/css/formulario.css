@@ -1,0 +1,16 @@
+.botaoFormulario{
+    width: 30%;
+    border: 1;
+    background-color: rgb(11, 145, 11);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.formulario{
+
+    text-align: center;
+    width: 30%;
+    background-color: rgba(0, 255, 255, 0.4);
+    border: 3px solid rgb(115, 196, 189);
+
+}
