@@ -1,0 +1,57 @@
+iframe{
+    justify-content: center;
+    height: 485px;
+    width: 485px;
+    align-items: center;
+    border-radius: 16px;
+    transition: 0.2s ease;
+}
+iframe:hover{
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+/*body do menu (caixas e fontes)*/
+.quadro{
+    display: flex;
+    margin-top: 50px;
+    height: 520px;
+    width: 520px;
+    background-color: rgba(255, 255, 255, 0.656);
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.texto{
+    justify-content: center;
+    height: 470px;
+    width: 470px;
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.942);
+    padding: 10px;
+    transition: 0.2s ease;
+}
+/*p e h3*/
+.texto p,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+    margin-left: 5px;
+    font-size: 24px;
+}
+p::first-letter{
+    font-size: 40px;
+}
+.texto:hover{
+        transform: scale(1.06);
+        transition: 0.2s;
+}
+body{
+    background-image: url(../midias/background.webp);
+}
+

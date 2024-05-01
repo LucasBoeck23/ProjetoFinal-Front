@@ -1,0 +1,47 @@
+main {
+  margin-top: 40px;
+  padding-left: 74px;
+}
+
+main #sobreNos {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+#sobreNos h1,h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  margin: 16px;
+}
+
+.texto {
+  color: white;
+  width: 60%;
+}
+
+#sobreNos h1 {
+  font-size: 46px;
+}
+
+#sobreNos h2 {
+  font-size: 34px;
+}
+
+.missao {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+h3::first-letter{
+  font-size: 40px;
+}
+body{
+  background-image: url(../midias/background.webp);
+}
