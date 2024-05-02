@@ -1,0 +1,58 @@
+body{
+    background-image: url(../midias/background.webp);
+}
+.imagem{
+    justify-content: center;
+    height: 495px;
+    width: 495px;
+    align-items: center;
+    border-radius: 16px;
+    transition: 0.2s ease;
+}
+.imagem:hover{
+    transform: scale(1.08);
+    transition: 0.2s;
+}
+.quadro{
+    display: flex;
+    margin-top: 50px;
+    height: 530px;
+    width: 530px;
+    background-color: rgba(255, 255, 255, 0.656);
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.texto{
+    justify-content: center;
+    height: 480px;
+    width: 480px;
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.942);
+    padding: 10px;
+    transition: 0.2s ease;
+}
+/*p e h3*/
+.texto p,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+    margin-left: 5px;
+    font-size: 23px;
+}
+p::first-letter{
+    font-size: 34px;
+}
+h3{
+    font-size: 28px;
+}
+.texto:hover{
+        transform: scale(1.06);
+        transition: 0.2s;
+}

@@ -1,25 +1,27 @@
 iframe{
     justify-content: center;
-    height: 485px;
-    width: 485px;
+    height: 30.313rem;
+    width: 30.313rem;
     align-items: center;
-    border-radius: 16px;
+    border-radius: 1rem;
     transition: 0.2s ease;
 }
 iframe:hover{
-    transform: scale(1.06);
+    transform: scale(1.07);
     transition: 0.2s;
 }
 /*body do menu (caixas e fontes)*/
 .quadro{
     display: flex;
-    margin-top: 50px;
-    height: 520px;
-    width: 520px;
+    margin-top: 2.5rem;
+    height: 32.5rem;
+    width: 32.5rem;
     background-color: rgba(255, 255, 255, 0.656);
-    border-radius: 16px;
+    border-radius: 1rem;
     align-items: center;
     justify-content: center;
+    box-shadow: 0.438rem 0.313rem 0.313rem 0.313rem  rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.25rem;
 }
 .container{
     width: 100vw;
@@ -29,29 +31,32 @@ iframe:hover{
 }
 .texto{
     justify-content: center;
-    height: 470px;
-    width: 470px;
+    height: 29.375rem;
+    width: 29.375rem;
     align-items: center;
-    border-radius: 16px;
+    border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.942);
-    padding: 10px;
+    padding: 0.625rem;
     transition: 0.2s ease;
 }
 /*p e h3*/
 .texto p,h3{
     font-family: Arial, Helvetica, sans-serif;
     justify-content: flex-start;
-    margin-left: 5px;
-    font-size: 24px;
+    margin-left: 0.313rem;
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.75rem;
 }
 p::first-letter{
-    font-size: 40px;
+    font-size: 2.188rem;
 }
 .texto:hover{
-        transform: scale(1.06);
+        transform: scale(1.07);
         transition: 0.2s;
 }
 body{
-    background-image: url(../midias/background.webp);
+    background-image: url(../Midias/Fundo.webp);
 }
 

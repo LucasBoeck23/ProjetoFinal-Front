@@ -7,6 +7,7 @@
     border-radius: 16px;
     align-items: center;
     justify-content: center;
+    box-shadow: 0.200rem 0.100rem 0.213rem 0.213rem  rgba(0, 0, 0, 0.5);
 }
 .container{
     width: 100vw;
@@ -14,22 +15,14 @@
     align-items: center;
     justify-content: center;
 }
-.texto{
-    justify-content: center;
-    height: 470px;
-    width: 470px;
-    align-items: center;
-    border-radius: 16px;
-    background-color: rgba(255, 255, 255, 0.942);
-    padding: 10px;
-}
-.titulo{
+.titulo h1{
     color: white;
     font-family:"Bebas Neue", sans-serif;
     margin: 50px;
     text-align: center;
     height: 50px;
     font-size: 75px;
+    text-shadow: 0.438rem 0.313rem 0.313rem rgba(0, 0, 0, 0.5);
 }
 .carrosselMenu{
     display: flex;
@@ -43,7 +36,7 @@
     border-radius: 16px;
 }
 .carrosselMenu:hover{
-    transform: scale(1.07);
+    transform: scale(1.08);
     transition: 0.2s;
 }
 .carrosselMenu h5,p{
@@ -57,5 +50,5 @@
 }
 
 body{
-    background-image: url(../midias/background.webp);
+    background-image: url(../Midias/Fundo.webp);
 }

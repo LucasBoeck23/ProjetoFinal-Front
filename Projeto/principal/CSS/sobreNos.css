@@ -1,6 +1,11 @@
 main {
   margin-top: 40px;
-  padding-left: 74px;
+  padding-left: 4.625rem;
+  padding-right: 4.625rem;
+}
+
+main p, h1, h2, h3 {
+  color: white;
 }
 
 main #sobreNos {
@@ -12,7 +17,15 @@ h3 {
   font-size: 22px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
-  margin-right: 30px;
+}
+
+h3::first-letter{
+  font-size: 32px;
+}
+body{
+  background-image: url(../Midias/Fundo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sobreNos h1,h2 {
@@ -22,7 +35,6 @@ h3 {
 }
 
 .texto {
-  color: white;
   width: 60%;
 }
 
@@ -32,16 +44,126 @@ h3 {
 
 #sobreNos h2 {
   font-size: 34px;
+
 }
 
 .missao {
   display: flex;
   justify-content: flex-end;
-  margin-right: 30px;
 }
-h3::first-letter{
-  font-size: 40px;
+
+.missao h2 {
+  position: relative;
+  left: 2rem;
 }
-body{
-  background-image: url(../midias/background.webp);
+
+#contato {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  margin-top: 4rem;
+  gap: 1.8rem 1.8rem;
+}
+
+#contato h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+.perfil {
+  display: flex;
+  width: 17.38rem;
+  background-color: rgb(243, 255, 225);
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.nome, .descricao {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 3.5px 2px 2px 2px;
+}
+
+.nome {
+  font-weight: 500;
+  display: flex;
+  align-items: start;
+  color: black;
+}
+
+.nome:hover {
+  transform: scale(1.06);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.nome-div a {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.descricao {
+  color: rgb(127, 172, 136);
+}
+
+.img-perfil {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  transition: 0.2s ease;
+}
+
+.img-perfil:hover {
+  transform: scale(1.04);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.img-div a {
+  margin: 0;
+  padding: 0;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.perfis {
+  transform: 1.03;
+}
+
+.github-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-logo img{
+  width: 2.3rem;
+}
+
+.github-logo a {
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+  margin: 0;
+}
+
+.github-logo img:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.texto-div {
+  width: 200px;
 }

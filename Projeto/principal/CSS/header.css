@@ -1,15 +1,17 @@
 header{
     display: flex;
-    background-color:white;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.932) , rgba(255, 255, 255, 0.765));
     justify-content: space-around;
-    height: 160px;
-    border-radius: 6px;
+    height:8.75rem;
+    border-radius:0.375rem;
     flex-wrap: nowrap;
 }
 
-.Logo{
+.Logo img{
     align-items: flex-start;
     justify-content: center;
+    height: 8.125rem;
+    width: 9.375rem;
 }
 
 nav{
@@ -24,9 +26,9 @@ nav{
 }
 
 .opcoesMenu p, a{
-    padding: 10px;
-    margin: 0 20px;
-    font-size: 20px;
+    padding: 0.625rem;
+    margin: 0 1.25rem;
+    font-size: 1.25rem;
     cursor: pointer;
     text-decoration: none;
     color: black;
