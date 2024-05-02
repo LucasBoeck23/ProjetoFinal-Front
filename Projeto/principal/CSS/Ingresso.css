@@ -6,16 +6,18 @@
     justify-content: space-evenly;
 }
 .texto{
-    margin: 50px 0;
+    margin: 3.125rem 0;
     justify-content: center;
-    min-height: 565px;
-    width: 670px;
+    min-height: 35.3125rem;
+    width: 41.875rem;
     align-items: center;
-    border-radius: 16px;
+    border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.801);
-    padding: 35px 40px 60px 40px;
+    padding: 2.1875rem 2.5rem 3.75rem 2.5rem;
     transition: 0.2s ease;
 }
 body{
     background-image: url(../Midias/Fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -14,13 +14,13 @@ main #sobreNos {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
 }
 
 h3::first-letter{
-  font-size: 32px;
+  font-size: 2rem;
 }
 body{
   background-image: url(../Midias/Fundo.webp);
@@ -30,8 +30,9 @@ body{
 
 #sobreNos h1,h2 {
   font-family: "Bebas Neue", sans-serif;
-  font-weight: 500;
-  margin: 16px;
+  font-weight: 31.25rem;
+  text-shadow: 0.200rem 0.100rem 0.213rem rgba(0, 0, 0, 0.38);
+  margin: 1rem;
 }
 
 .texto {
@@ -39,11 +40,11 @@ body{
 }
 
 #sobreNos h1 {
-  font-size: 46px;
+  font-size: 2.875rem;
 }
 
 #sobreNos h2 {
-  font-size: 34px;
+  font-size: 2.125rem;
 
 }
 
@@ -68,8 +69,8 @@ body{
 
 #contato h1 {
   font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-size: 38px;
+  font-weight: 25rem;
+  font-size: 2.375rem;
   text-align: center;
   align-items: center;
   margin: 0;
@@ -85,11 +86,11 @@ body{
 
 .nome, .descricao {
   font-family: "Josefin Sans", sans-serif;
-  margin: 3.5px 2px 2px 2px;
+  margin: .2188rem .125rem .125rem .125rem;
 }
 
 .nome {
-  font-weight: 500;
+  font-weight: 31.25rem;
   display: flex;
   align-items: start;
   color: black;
@@ -102,7 +103,7 @@ body{
 }
 
 .nome-div a {
-  font-size: 18px;
+  font-size: 1.125rem;
   margin: 0;
   padding: 0;
 }
@@ -128,7 +129,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 12px;
+  margin-right: .75rem;
 }
 
 .img-div a {
@@ -165,5 +166,5 @@ body{
 }
 
 .texto-div {
-  width: 200px;
+  width: 12.5rem;
 }

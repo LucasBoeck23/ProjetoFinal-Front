@@ -1,13 +1,13 @@
 .quadro{
     display: flex;
-    margin-top: 50px;
-    height: 400px;
-    width: 520px;
+    margin-top: 3.125rem;
+    height: 25rem;
+    width: 32.5rem;
     background-color: rgba(255, 255, 255, 0.739);
-    border-radius: 16px;
+    border-radius: 1rem;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.200rem 0.100rem 0.213rem 0.213rem  rgba(0, 0, 0, 0.5);
+    box-shadow: 0.200rem 0.100rem 0.213rem 0.213rem  rgba(0, 0, 0, 0.38);
 }
 .container{
     width: 100vw;
@@ -18,29 +18,29 @@
 .titulo h1{
     color: white;
     font-family:"Bebas Neue", sans-serif;
-    margin: 50px;
+    margin: 3.125rem;
     text-align: center;
-    height: 50px;
-    font-size: 75px;
+    height: 3.125rem;
+    font-size: 4.6875rem;
     text-shadow: 0.438rem 0.313rem 0.313rem rgba(0, 0, 0, 0.5);
 }
 .carrosselMenu{
     display: flex;
-    width: 500px;
-    height: 500px;
+    width: 31.25rem;
+    height: 31.25rem;
     align-items: center;
     justify-content: center;
     transition: 0.2s ease;
 }
 .carrosselMenu img{
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 .carrosselMenu:hover{
     transform: scale(1.08);
     transition: 0.2s;
 }
 .carrosselMenu h5,p{
-    border-radius: 16px;
+    border-radius: 1rem;
     background-color:rgba(62, 226, 62, 0.808);
     color: rgba(255, 255, 255, 0.91);
 }
@@ -51,4 +51,6 @@
 
 body{
     background-image: url(../Midias/Fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
