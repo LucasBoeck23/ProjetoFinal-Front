@@ -1,0 +1,122 @@
+header{
+    display: flex;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.932) , rgba(255, 255, 255, 0.765));
+    justify-content: space-around;
+    height:8.75rem;
+    border-radius:0.375rem;
+    flex-wrap: nowrap;
+}
+
+.Logo img{
+    align-items: flex-start;
+    justify-content: center;
+    height: 8.125rem;
+    width: 9.375rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.opcoesMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.opcoesMenu p, a{
+    padding: 0.625rem;
+    margin: 0 1.25rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s ease;
+
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#hamburguer-menu {
+    display: none;
+}
+
+#hamburguer-menu a, #hamburguer-logo{
+    padding: 0;
+    margin: 0;
+    width: 1.9375rem;
+    height: 1.9375rem;
+}
+
+@media screen and (max-width: 760px) {
+    .Logo img{
+        align-items: center;
+        justify-content: center;
+        height: 4.125rem;
+        width: 4.375rem;
+        margin-left: 1.25rem;
+        margin-top: .3125rem;
+    }
+
+    header{
+        display: flex;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.932) , rgba(255, 255, 255, 0.765));
+        justify-content: space-between;
+        height:4.75rem;
+        width: 100%;
+        border-radius:0.375rem;
+        flex-wrap: nowrap;
+    }
+
+    .opcoesMenu {
+        display: none;
+    }
+
+    .opcoesMenu-hamburguer {
+        flex-direction: column;
+        height: 76vw;
+        width: 11rem;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) , rgba(255, 255, 255, 0.865));
+        z-index: 3;
+        position: absolute;
+        right: 0rem;
+        top: 0rem;
+        border-bottom-left-radius: 1rem;
+        box-shadow:20px 0px 0px 200rem rgba(0, 0, 0, 0.5);
+    }
+
+    #closeMenu-logo{
+        width: 20px;
+        align-self: flex-end;
+        margin-right: .75rem;
+        margin-top: .75rem;
+        margin-bottom: .625rem;
+    }
+
+    .opcoesMenu-hamburguer p, .opcoesMenu-hamburguer a{
+        padding: 0.625rem;
+        margin: 0 1.25rem;
+        font-size: 0.95rem;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 0.2s ease;
+    }
+
+    #hamburguer-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    #hamburguer-logo {
+        margin-right: 20px;
+    }
+}

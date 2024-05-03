@@ -50,6 +50,14 @@
           <a href="Visitacao.html">Horário de visitaçao</a>
           <a href="SobreNos.html">Sobre nós</a>
         </div>
+        <div id="hamburguer-menu">
+          <img
+            src="../midias/hamburguer-menu.png"
+            alt=""
+            id="hamburguer-logo"
+            onclick="abrirMenu()"
+          />
+        </div>
       </nav>
     </header>
     <form id="formulario">
@@ -106,40 +114,11 @@
                 id="inputCity"
                 name="Cidade"
                 placeholder="Ex: Nova Friburgo"
-                />
+              />
             </div>
             <div class="form-group col-md-4">
               <label for="inputEstado">Estado</label>
-              <select id="inputEstado" class="form-control">
-                <option selected>Escolher...</option>
-                <option>AC</option>
-                <option>AL</option>
-                <option>AP</option>
-                <option>AM</option>
-                <option>BA</option>
-                <option>CE</option>
-                <option>DF</option>
-                <option>ES</option>
-                <option>GO</option>
-                <option>MA</option>
-                <option>MT</option>
-                <option>MS</option>
-                <option>MG</option>
-                <option>PA</option>
-                <option>PB</option>
-                <option>PR</option>
-                <option>PE</option>
-                <option>PI</option>
-                <option>RJ</option>
-                <option>RN</option>
-                <option>RS</option>
-                <option>RO</option>
-                <option>RR</option>
-                <option>SC</option>
-                <option>SP</option>
-                <option>SE</option>
-                <option>TO</option>
-              </select>
+              <select id="inputEstado" class="form-control"></select>
             </div>
             <div class="form-group col-md-2">
               <label for="inputCEP">CEP</label>
@@ -148,7 +127,7 @@
                 class="form-control"
                 id="inputCEP"
                 name="CEP"
-                />
+              />
             </div>
           </div>
           <div class="form-group">
@@ -157,16 +136,33 @@
                 class="form-check-input"
                 type="checkbox"
                 id="gridCheck"
-                name="Aceitou os termos"/>
+                name="Aceitou os termos"
+              />
               <label class="form-check-label" for="gridCheck">
                 Eu li e concordo com os termos de uso
               </label>
             </div>
           </div>
-          <button id="comprar"  type="submit" class="btn btn-primary">Adquirir ingresso</button>
+          <button id="comprar" type="submit" class="btn btn-primary">
+            Adquirir ingresso
+          </button>
         </div>
       </section>
     </form>
+    <div class="opcoesMenu-hamburguer" style="display: none">
+      <img
+        src="../midias/Close-Menu.png"
+        alt=""
+        id="closeMenu-logo"
+        onclick="fecharMenu()"
+      />
+      <a href="Menu.html">Início</a>
+      <a href="Ingresso.html">Ingresso</a>
+      <a href="ComoChegar.html">Como chegar</a>
+      <a href="Visitacao.html">Horário de visitaçao</a>
+      <a href="SobreNos.html">Sobre nós</a>
+    </div>
+    <script src="../JS/Header.js"></script>
     <script src="../JS/Ingresso.js"></script>
   </body>
 </html>

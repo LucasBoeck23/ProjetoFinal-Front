@@ -1,0 +1,187 @@
+main {
+  margin-top: 40px;
+  padding-left: 4.625rem;
+  padding-right: 4.625rem;
+}
+
+main p, h1, h2, h3 {
+  color: white;
+}
+
+main #sobreNos {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+}
+
+h3::first-letter{
+  font-size: 2rem;
+}
+body{
+  background-image: url(../Midias/Fundo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sobreNos h1,h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 31.25rem;
+  text-shadow: 0.200rem 0.100rem 0.213rem rgba(0, 0, 0, 0.38);
+  margin: 1rem;
+}
+
+.texto {
+  width: 60%;
+}
+
+#sobreNos h1 {
+  font-size: 2.875rem;
+}
+
+#sobreNos h2 {
+  font-size: 2.125rem;
+
+}
+
+.missao {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.missao h2 {
+  position: relative;
+  left: 2rem;
+}
+
+#contato {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  margin-top: 4rem;
+  gap: 1.8rem 1.8rem;
+}
+
+#contato h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 25rem;
+  font-size: 2.375rem;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+.perfil {
+  display: flex;
+  width: 17.38rem;
+  background-color: rgb(243, 255, 225);
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.nome, .descricao {
+  font-family: "Josefin Sans", sans-serif;
+  margin: .2188rem .125rem .125rem .125rem;
+}
+
+.nome {
+  font-weight: 31.25rem;
+  display: flex;
+  align-items: start;
+  color: black;
+}
+
+.nome:hover {
+  transform: scale(1.06);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.nome-div a {
+  font-size: 1.125rem;
+  margin: 0;
+  padding: 0;
+}
+
+.descricao {
+  color: rgb(127, 172, 136);
+}
+
+.img-perfil {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  transition: 0.2s ease;
+}
+
+.img-perfil:hover {
+  transform: scale(1.04);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: .75rem;
+}
+
+.img-div a {
+  margin: 0;
+  padding: 0;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.perfis {
+  transform: 1.03;
+}
+
+.github-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-logo img{
+  width: 2.3rem;
+}
+
+.github-logo a {
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+  margin: 0;
+}
+
+.github-logo img:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.texto-div {
+  width: 12.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  #contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 1.8rem 1.8rem;
+  }
+
+  main {
+    margin-top: 40px;
+    padding-left: 1.625rem;
+    padding-right: 1.625rem;
+  }
+}

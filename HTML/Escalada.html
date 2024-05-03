@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escalada</title>
+
+    <!--links das fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--links do css-->
+    <link rel="stylesheet" href="../CSS/SaibaMaisMenu.css" />
+    <link rel="stylesheet" href="../CSS/Header.css" />
+
+    <!--Favicon-->
+    <link
+      rel="shortcut icon"
+      href="../Midias/Favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="Logo">
+        <img src="../Midias/Logo.png" alt="Logo Serratrack" />
+      </div>
+      <nav>
+        <div class="opcoesMenu">
+          <a href="Menu.html">Início</a>
+          <a href="Ingresso.html">Ingresso</a>
+          <a href="ComoChegar.html">Como chegar</a>
+          <a href="Visitacao.html">Horário de visitaçao</a>
+          <a href="SobreNos.html">Sobre nós</a>
+        </div>
+        <div id="hamburguer-menu">
+          <img
+            src="../midias/hamburguer-menu.png"
+            alt=""
+            id="hamburguer-logo"
+            onclick="abrirMenu()"
+          />
+        </div>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="quadro">
+        <img
+          class="imagem"
+          src="../Midias/Escalada.JPG"
+          alt="Foto de uma pessoa escalando uma pedra"
+        />
+      </div>
+      <div class="quadro">
+        <div class="texto">
+          <h3>Escalada</h3>
+          <p>
+            Oferecendo uma experiencia desafiadora, a escalada exige habilidades
+            técnicas, força e coragem. Enfrentar paredões de rocha ou montanhas
+            íngremes é uma experiência que vai além do físico, testando também a
+            determinação e a capacidade de superação.
+          </p>
+          <p>
+            A sensação de alcançar o topo após uma escalada árdua é
+            indescritível, recompensando o esforço com uma vista panorâmica e
+            uma sensação de conquista pessoal.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="opcoesMenu-hamburguer" style="display: none">
+      <img
+        src="../midias/Close-Menu.png"
+        alt=""
+        id="closeMenu-logo"
+        onclick="fecharMenu()"
+      />
+      <a href="Menu.html">Início</a>
+      <a href="Ingresso.html">Ingresso</a>
+      <a href="ComoChegar.html">Como chegar</a>
+      <a href="Visitacao.html">Horário de visitaçao</a>
+      <a href="SobreNos.html">Sobre nós</a>
+    </div>
+    <script src="../JS/Header.js"></script>
+  </body>
+</html>
